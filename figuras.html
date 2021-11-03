@@ -5,12 +5,71 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Figuras geométricas | Curso Práctica de JavaScript</title>
+  <title>Figuras geom&eacute;tricas | Curso Pr&aacute;ctico de JavaScript</title>
 </head>
 
 <body>
-  <h1>Figuras geométricas</h1>
+  <header>
+    <h1>Figuras geom&eacute;tricas</h1>
+    <p>Taller #1 del Curso Pr&aacute;ctico de JavaScript</p>
+  </header>
+  <section>
+    <h2>Calcula el &Aacute;rea y el Per&iacute;metro de un Cuadrado</h2>
 
+    <form action="/">
+      <label>
+        Escribe cu&aacute;nto mide cada lado del cuadrado:
+        <input type="number" id="InputLadosCuadrado">
+      </label>
+      <br>
+      <button type="button" onclick="calcularPerimetroCuadrado()">Calcular el per&iacute;metro</button>
+      <button type="button" onclick="calcularAreaCuadrado()">Calcular el &aacute;rea</button>
+    </form>
+  </section>
+  <section>
+    <h2>Calcula el &Aacute;rea y el Per&iacute;metro de un Tri&aacute;gulo</h2>
+    <form action="/">
+      <label>
+        Escribe cu&aacute;nto mide el primer lado del tri&aacute;gulo:
+        <input type="number" id="input_ladoTriangulo1">
+      </label>
+      <br>
+      <label>
+        Escribe cu&aacute;nto mide el segundo lado del tri&aacute;gulo:
+        <input type="number" id="input_ladoTriangulo2">
+      </label>
+      <br>
+      <label>
+        Escribe cu&aacute;nto mide la base del tri&aacute;gulo:
+        <input type="number" id="input_baseTriangulo">
+      </label>
+      <br>
+      <label>
+        Escribe cu&aacute;nto mide la altura del tri&aacute;gulo:
+        <input type="number" id="input_alturaTriangulo">
+      </label>
+      <br>
+      <button type="button" onclick="calcularPerimetroTriangulo()">Calcular el per&iacute;metro</button>
+      <button type="button" onclick="calcularAreaTriangulo()">Calcular el &aacute;rea</button>
+    </form>
+
+  </section>
+
+  <section>
+    <h2>Calcula el &Aacute;rea y el Per&iacute;metro de un C&iacute;culo</h2>
+
+    <form action="/">
+      <label>
+        Escribe cu&aacute;nto mide el radio del C&iacute;rculo:
+        <input type="number" id="InputRadioCirculo">
+      </label>
+      <br>
+
+      <button type="button" onclick="calcularDiametroCirculo()">Calcular el di&aacute;metro</button>
+      <button type="button" onclick="calcularPerimetroCirculo()">Calcular el per&iacute;metro</button>
+      <button type="button" onclick="calcularAreaCirculo()">Calcular el &aacute;rea</button>
+    </form>
+  </section>
   <script src="./figuras.js"></script>
 </body>
 
