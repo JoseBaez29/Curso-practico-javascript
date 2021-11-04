@@ -1,4 +1,4 @@
-# Curso-practio-javascript
+# Curso-practico-javascript
 
 Curso Práctico de JavaScript de la Escuela de JavaScript de Platzi
 
