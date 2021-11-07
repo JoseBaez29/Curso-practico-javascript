@@ -1,9 +1,11 @@
-function calculateAverageToList(lista) {
-  let sumList = 0;
+function calculateAverageToList(list) {
+  // let sumList = 0;
 
-  for (let i = 0; i < lista.length; i++) {
-    sumList += lista[i];
-  }
-  const averageListNum = sumList / lista.length;
+  // for (let i = 0; i < list.length; i++) {
+  //   sumList += lista[i];
+  // }
+
+  const sumList = list.reduce((NumAccumulate = 0, num) => NumAccumulate + num);
+  const averageListNum = sumList / list.length;
   return averageListNum;
 }
